@@ -3,8 +3,8 @@ const longin = $('#login')
 const incomes = $('#incomes')
 const expences = $('#expences')
 const save = $('#save')
-var users = []
-signin.click(enter)
+
+signin.click(entesr)
 longin.click(login)
 incomes.click(income)
 expences.click(expence)
@@ -18,9 +18,9 @@ function enter(){
 function login(){
    $('#put').hide()
    $('#principal').removeClass('hide')
-   
-
 }
+
+
 
 
 
@@ -54,7 +54,9 @@ function expence(){
 }
 
 
-
+var usersarray = []
+var namearray = []
+var passwordarray = []
 function addcostumer(){
    var name = $('#usersnames').val()
    var password = $('password').val()
@@ -62,9 +64,9 @@ function addcostumer(){
       name : name,
       password : password
    }
-   users.push(obj)
-   console.log('me')
-
+   usersarray.push(obj)
+   namearray.push(name)
+   passwordarray.push(password)
 }
 
 
