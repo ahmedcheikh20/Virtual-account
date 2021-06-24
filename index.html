@@ -3,26 +3,19 @@
 <head>
 
 	<title> virtual account </title>
-
-
-  <link rel="stylesheet" href="style.css">
-  <!-- // we linked our html page to bootstrap css -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">  <!-- we create link between html and css -->  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">  <!-- // we linked our html page to bootstrap  -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> and we link it to jquery
 </head>
 
 <body>
-   <!-- //we create a button  -->
-   <button id= 'mainButton'>
-      <!-- //for it we create class and we give it style  -->
-   <div class= "container" style="background-color: black">
-      <!-- our h1 with class and syle and strong size -->
-   <h1  class= "jumbotron" style="background-color: black"> <strong>VIRTUAL ACCOUNT</strong></h1> 
+   <button id= 'mainButton'><!-- //we create a button  -->
+   <div class= "container" style="background-color: black"><!-- //for it we create class and we give it style  -->
+   <h1  class= "jumbotron" style="background-color: black"> <strong>VIRTUAL ACCOUNT</strong></h1> <!-- our h1 with class and syle and strong size -->
 </div >
 </button>
 
+<!-- // here we create a refrence for our user and sign button -->
 <div id= "user">
    <div id= "userpassword">
       <button id = "enter">signin</button>
@@ -30,7 +23,7 @@
    </div>   
 </div>
 
-
+<!-- we create class to show and hide the balance /incomes and expences -->
 <div class = 'hide' id='principal'>
    <button id ="balance" >Balance</button>
    <button id ="incomes" >incomes</button>
@@ -38,15 +31,19 @@
 </div>
 
 <div class = 'hide' id='incomeComptes'>
-   <p>compte1</p>
-   <p>compte2</p>
-   <button id="forC">return to main page</button>
+   <p>Salary</p>
+   <p>Investment</p>
+   <button id="forC">Go back</button>
 </div>
-
+<!-- the titles p will be the in put -->
 <div class = 'hide' id='expencesComptes'>
-   <p>compte1</p>
-   <p>compte2</p>
-   <button id="forCc">return to main page</button>
+   <p>Food</p>
+   <p>Travelling</p>
+   <p>Tools</p>
+   <p>Clothes</p>
+   <p>Beauty</p>
+   <p>Maintains</p>
+   <button id="forCc">Go back</button>
 </div>
 
 <!-- // we create a hiden class for the username and password -->
