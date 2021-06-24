@@ -1,12 +1,54 @@
-#title{
-  font-size: 100px
-
+*, *::before, *::after {
+   box-sizing : border-box;
+   font-family: Gotham Rounded;
 }
-.login{
-    padding: 3% 30% 3% 30%;
-    }
 
-.image{
-	width: 60px
-
+#user{
+   
+   background-color: #ffc107db;
+   border-radius: 5px;
+   padding: 10px;
+   box-shadow: 5px 10px #888888;
+   position: relative;
+   left: 1186px;
+   top: -190px;
+   height: 180px
 }
+
+.hide{
+   display: none;
+}
+
+
+#userpassword{
+   position: relative;
+   top: 100px;
+}
+
+#balance{
+   position: relative;
+    left: 543px;
+    width: 255px;
+    height: 147px;
+    border: 1px solid blue;
+    top: -36px;
+}
+
+#incomes{
+position: relative;
+    left: 3px;
+    width: 255px;
+    height: 147px;
+    border: 1px solid blue;
+    top: -36px;
+}
+
+#expences{
+   position: relative;
+    left: 324px;
+    width: 255px;
+    height: 147px;
+    border: 1px solid blue;
+    top: -36px;
+}
+
