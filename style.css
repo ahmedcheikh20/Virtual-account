@@ -52,3 +52,20 @@ position: relative;
     top: -36px;
 }
 
+#user {
+    background-image: url(img.jpg);
+    background-color: black;
+    border-radius: 2px;
+    padding: 8px;
+    position: relative;
+    left: 1051px;
+    top: -189px;
+    height: 181px;
+}
+    
+.image{
+    position: relative;
+    left: 718px;
+    width: 100px;
+  height: 100px;
+}
