@@ -76,7 +76,7 @@ position: relative;
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: black;
   overflow: hidden;
 }
 
@@ -142,4 +142,23 @@ p{
     padding: 8px;
 }
 
+}
+
+.erftgg{
+
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+#put{
+    margin: auto;
+    width: 17%;
+    border: 3px solid #333;
+    padding: 8px;
 }
