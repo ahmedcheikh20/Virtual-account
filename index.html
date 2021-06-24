@@ -7,30 +7,28 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">  <!-- // we linked our html page to bootstrap  -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
 </head>
-
-<body>
-   <button id= 'mainButton'><!-- //we create a button  -->
-    <!-- //our container is the place holding our project name and our jumbotron the global one --> 
-    <!-- the jumbotron is kind of containe inside our container which holde our project name  -->
-   <div class= "container" style="background-color: black"><!-- //for it we create class and we give it style  -->
-   <h1  class= "jumbotron" style="background-color: black"> <strong>VIRTUAL ACCOUNT</strong></h1> <!-- our h1 with class and syle and strong size -->
-</div >
-</button>
-
-<!-- // here we create a refrence for our user and sign button --> <!-- those in the corner -->
-<div id= "user">
-   <div id= "userpassword">
-      <button id = "enter">signin</button>
-      <button id = "save">signup</button>
-      <img class= "image" src="img.jpg" width="200" height="200">
-   </div>   
+<!-- // we create class for the navbar -->
+<div class="topnav"> 
+  <nav>
+    <ul>
+      <!-- // we give a name -->
+      <li><a href="#"><strong> VIRTUAL ACCOUNT </strong></a></li>
+    </ul>
+  </nav>
+  <!-- // we create buutons for sign in and sign up -->
+   <input type="button" id ="enter" value="signin" style="float: right;">
+   <input type="button" id ="save" value="signup" style="float: right;">
 </div>
-
+<body>
+<!-- welcome text -->
+<p> Welcome to you interface <strong> VIRTUAL ACCOUNT </strong>, follow the instructions to verify your balance</p>
+<!-- // we pushed and image that represente website -->
+<img class= "image" src="C:\Users\marou\Desktop\img.jpg">
 <!-- we create class to show and hide the balance /incomes and expences -->
 <div class = 'hide' id='principal'>
    <button id ="balance" >Balance</button>
    <button id ="incomes" >incomes</button>
-   <button id ="expences" >expences</button>
+   <button id ="expences" >expenses</button>
 </div>
 <!-- we create class for the incomes with button goback  -->
 <div class = 'hide' id='incomeComptes'>
@@ -66,10 +64,8 @@
   <button id='signup'> Sign up </button> 
 </div>
 
-   
  
 
-   
    
 <script type="text/javascript" src="main.js"></script>
 
