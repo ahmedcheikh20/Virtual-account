@@ -16,7 +16,8 @@
 }
 
 .hide{
-   display: none;
+ /*  display: none;*/
+   visibility: hidden;
 }
 
 
@@ -25,35 +26,6 @@
    top: 100px;
 }
 
-#balance{
-  background-color: black;
-   position: relative;
-    left: 543px;
-    width: 255px;
-    height: 147px;
-    border: 1px solid blue;
-    top: 20px;
-}
-
-#incomes{
-  background-color: black;
-position: relative;
-    left: 3px;
-    width: 255px;
-    height: 147px;
-    border: 1px solid blue;
-    top: 20px;
-}
-
-#expences{
-  background-color: black;
-   position: relative;
-    left: 324px;
-    width: 255px;
-    height: 147px;
-    border: 1px solid blue;
-    top: 20px;
-}
 
 #user {
     background-image: url(img.jpg);
@@ -113,22 +85,10 @@ position: relative;
     height: 60px;
 }
     
-#enter{
-  height: 30px
-}
-#save{
-  height:30px
-}
-#Investment,#Food,#Travelling,#Tools,#Clothes,#Beauty,#Maintains{
-  text-align: center;
-  font-size: 20px;
-  color: grey;
-}
-#salary{
-   text-align: center;
-  font-size: 20px;
-  color: grey;
-}
+
+
+
+
 .image {
     display: block;
     width: 47%;
@@ -142,33 +102,35 @@ position: relative;
     height: 241px;
     border: 10px solid yellow;
 }
-#coordinate {
-    margin: auto;
-    width: 17%;
-    border: 3px solid #333;
-    padding: 8px;
-    position: relative;
-    left: 6px;
-}
 
 
 
-.sidebar {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: black;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
 #put {
     margin: auto;
-    width: 24%;
+    width: 392px;
     border: 3px solid #333;
-    padding: 8px;
+    padding: 63px;
     position: relative;
-    left: -4px;
+    left: -16px;
+    top: 87px;
+    height: 256px;
+    border-radius: 12px;
+    background-color: #000000b0;
+    font-size: 17px;
+ }
+ 
+#coordinate {
+   margin: auto;
+    width: 392px;
+    border: 3px solid #333;
+    padding: 63px;
+    position: relative;
+    left: -16px;
+    top: 87px;
+    height: 319px;
+    border-radius: 12px;
+    background-color: #000000b0;
+    font-size: 17px;
 }
 
 
@@ -184,6 +146,82 @@ p{
   color:dimgray;
 }
 body{
-  background-image: url();
+  background-image: url('background.jpg');
   background-color: grey;
+}
+
+#enter,#save,#dec{
+   border-radius: 12px;
+   background-color:#f9c301;
+   position: relative;
+   left: -66px;
+   top: -17px;
+}
+
+#signup,#login{
+    border-radius: 12px;
+   background-color:#f9c301;
+   position: relative;
+   left: 15px;
+   top: -3px
+}
+
+
+#incomes{
+    width: 271px;
+    height: 235px;
+    border: 1px solid rgb(16, 16, 15);
+    top: 81px;
+    color: yellow;
+    font-size: 25px;
+    background-color: rgb(35 33 33 / 87%);
+    position: relative;
+    right: 194px;
+    border-radius: 50%;
+}
+
+#balance{
+    width: 306px;
+    height: 302px;
+    border: 1px solid rgb(16, 16, 15);
+    top: 81px;
+    color: yellow;
+    font-size: 25px;
+    background-color: rgb(35 33 33 / 87%);
+    position: relative;
+    left: 513px;
+    border-radius: 50%;
+
+}
+
+#expences{
+    width: 271px;
+    height: 235px;
+    border: 1px solid rgb(16, 16, 15);
+    top: 81px;
+    color: yellow;
+    font-size: 25px;
+    background-color: rgb(35 33 33 / 87%);
+    position: relative;
+    left: 371px;
+    border-radius: 50%;
+}
+
+#investdiv{
+   position: relative;
+   width: 25px;
+   height: 25px;
+   left: 200px;
+   top: 200px;
+   border: 25px;
+}
+
+#parid{
+   position: relative;
+   top: 43px;
+}
+
+
+.style{
+   color: white;
 }
