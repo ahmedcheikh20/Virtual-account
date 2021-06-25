@@ -26,30 +26,33 @@
 }
 
 #balance{
+  background-color: black;
    position: relative;
     left: 543px;
     width: 255px;
     height: 147px;
     border: 1px solid blue;
-    top: -36px;
+    top: 20px;
 }
 
 #incomes{
+  background-color: black;
 position: relative;
     left: 3px;
     width: 255px;
     height: 147px;
     border: 1px solid blue;
-    top: -36px;
+    top: 20px;
 }
 
 #expences{
+  background-color: black;
    position: relative;
     left: 324px;
     width: 255px;
     height: 147px;
     border: 1px solid blue;
-    top: -36px;
+    top: 20px;
 }
 
 #user {
@@ -70,7 +73,7 @@ position: relative;
   height: 100px;
 }
 #incomeComptes{
-  color: 
+   
 }
 /*//maroua work*/
 
@@ -135,7 +138,7 @@ body {
 
 .image {
     position: relative;
-    left: 365px;
+    left: 444px;
     width: 500px;
     height: 241px;
     border: 10px solid yellow;
@@ -163,10 +166,11 @@ body {
 }
 #put{
     margin: auto;
-    width: 17%;
+    width: 24%;
     border: 3px solid #333;
     padding: 8px;
 }
+
 
 #beautydiv{
    height: 20px;
