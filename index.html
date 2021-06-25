@@ -23,7 +23,7 @@
 <!-- welcome text -->
 <p> Welcome to you interface <strong> VIRTUAL ACCOUNT </strong>, follow the instructions to verify your balance</p>
 <!-- // we pushed and image that represente website -->
-<img class= "image" src="C:\Users\marou\Desktop\img.jpg">
+<img class= "image" id='img' src="C:\Users\marou\Desktop\img.jpg">
 <!-- we create class to show and hide the balance /incomes and expences -->
 <div class = 'hide' id='principal'>
    <button id ="balance" >Balance</button>
@@ -32,19 +32,42 @@
 </div>
 <!-- we create class for the incomes with button goback  -->
 <div class = 'hide' id='incomeComptes'>
-  <input id='inp' type="text" name="">
-   <button id= "button"> Salary </button>
-   <button id= "button1"> Investment </button>
+
+   <button id='Salary'>Salary</button>
+   <button id='Investment'>Investment</button>
    <button id="forC">Go back</button>
 </div>
 <!-- the titles p will be the in put for despenses with button go back -->
 <div class = 'hide' id='expencesComptes'>
-   <button id="button2"> Food</button>
-   <button id="button3">Travelling</button>
-   <button id="button4">Tools</button>
-   <button id="button5"> Clothes</button>
-   <button id="button6">Beauty</button>
-   <button id="button7">Maintains</button>
+
+   <div id='Foordiv'>
+      <button id='Food'>Food</button>
+      <p id='pfood'>  </p>
+      <input type="number" class='hide' id='foodin' name="food" value=''>
+      <button id=addfood class='hide'>add</button>
+   </div>
+    
+   <div>
+      <button id='Travelling'>Travelling</button>
+      <p id='ptravelling'></p>
+      <input type="number" class="hide" id="Travellingin" name="Travelling" value="">
+      <button id="addTravelling"></button>
+   </div>
+   
+   <div>
+      <button id='Clothes'>Clothes</button>
+      <p id="pclothes"></p>
+      <input type="number" class="hide" id="clothesin" name="clothes" value="">
+      <button id="addclothes"></button>
+   </div>
+   
+   <div id='beautydiv'>
+      <button id='Beauty'>Beauty</button>
+      <p id="pbeauty">  </p>
+      <input type="number" class = 'hide' id="beautyin" name="beauty" value=''>
+      <button id='addbeauty' class='hide'>add</button>
+   </div>
+
    <button id="forCc">Go back</button>
 </div>
 

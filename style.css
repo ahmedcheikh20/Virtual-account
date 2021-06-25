@@ -120,8 +120,13 @@ body {
 #save{
   height:30px
 }
-p{
+#Investment,#Food,#Travelling,#Tools,#Clothes,#Beauty,#Maintains{
   text-align: center;
+  font-size: 20px;
+  color: grey;
+}
+#salary{
+   text-align: center;
   font-size: 20px;
   color: grey;
 }
@@ -166,33 +171,10 @@ p{
     padding: 8px;
 }
 
-#button{
-  background-color: grey
-}
-#button1{
-  background-color: grey
-}
-#forC{
-  background-color: grey
-}
-#button2{
-  background-color: grey
-}
-#button3{
-  background-color: grey
-}
-#button4{
-  background-color: grey
-}
-#button5{
-  background-color: grey
-}
-#button6{
-  background-color: grey
-}
-#button7{
-  background-color: grey
-}
-#forCc{
-   background-color: grey
+
+#beautydiv{
+   height: 20px;
+   weight: 20px;
+   position: relative;
+   left: 100px;
 }
