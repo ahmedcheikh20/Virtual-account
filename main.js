@@ -13,6 +13,7 @@ signin.click(enter)
 function enter(){   
    $("#put").removeClass("hide")
    cordination.addClass('hide')
+   $('#mainpage').removeClass('hide')
 }
 const cordination = $('#coordinate')
 const save = $('#save')
@@ -20,7 +21,16 @@ save.click(showNewCordination)
 function showNewCordination(){
    cordination.removeClass('hide')
    $('#put').addClass('hide')
+   $('#mainpage').removeClass('hide')
 }
+
+$('#dec').click(deconect)
+ function deconect(){
+    $('#mainpage').addClass('hide')
+    $('#dec').addClass('hide')
+    $('#enter').removeClass('hide')
+    $('#save').removeClass('hide')
+ }
 
 $('#signup').click(addcostumer)
 var usersArray = []
@@ -69,14 +79,17 @@ function login(name){
    $('#principal').removeClass('hide')
    $('#img').removeClass('image')
    $('#img').addClass('hide')
+   $('#dec').removeClass('hide')
+   $('#enter').addClass('hide')
+   $('#save').addClass('hide')
    var nameBeauty = name + ' Beauty'
    var vBeauty = localStorage[nameBeauty]
    var nBeauty= JSON.parse(localStorage[nameBeauty])
    $('#Beauty').click(beautyval)
    function beautyval(){
-      $('#beautyin').removeClass('hide')
-      $('#addbeauty').removeClass('hide')
-      $('#pbeauty').removeClass('hide')
+      $('#beautyin').toggleClass('hide')
+      $('#addbeauty').toggleClass('hide')
+      $('#pbeauty').toggleClass('hide')
 
    }
    $('#addbeauty').click(addBeauty)
@@ -100,9 +113,9 @@ function login(name){
    var nfood= JSON.parse(localStorage[namefood])
    $('#Food').click(foodval)
    function foodval(){
-      $('#foodin').removeClass('hide')
-      $('#addfood').removeClass('hide')
-      $('#pfood').removeClass('hide')
+      $('#foodin').toggleClass('hide')
+      $('#addfood').toggleClass('hide')
+      $('#pfood').toggleClass('hide')
 
    }
    $('#addfood').click(addfood)
@@ -126,9 +139,9 @@ function login(name){
    var ntravelling= JSON.parse(localStorage[nametraveling])
    $('#Travelling').click(travelval)
    function travelval(){
-      $('#Travellingin').removeClass('hide')
-      $('#addTravelling').removeClass('hide')
-      $('#ptravelling').removeClass('hide')
+      $('#Travellingin').toggleClass('hide')
+      $('#addTravelling').toggleClass('hide')
+      $('#ptravelling').toggleClass('hide')
 
    }
    $('#addTravelling').click(addTravelling)
@@ -152,9 +165,9 @@ function login(name){
    var nclothes= JSON.parse(localStorage[nameclothes])
    $('#Travelling').click(clothesval)
    function clothesval(){
-      $('#clothesin').removeClass('hide')
-      $('#addclothes').removeClass('hide')
-      $('#pclothes').removeClass('hide')
+      $('#clothesin').toggleClass('hide')
+      $('#addclothes').toggleClass('hide')
+      $('#pclothes').toggleClass('hide')
 
    }
    $('#addclothes').click(addclothes)
@@ -172,6 +185,54 @@ function login(name){
     //         console.log(z)
     // z+=1
     //    console.log(z)
+
+
+    var namesalary = name + ' salary'
+   var vsalary = localStorage[namesalary]
+   var nsalary = JSON.parse(localStorage[namefood])
+   $('#Salary').click(salaryval)
+   function salaryval(){
+      $('#salaryin').toggleClass('hide')
+      $('#addsalary').toggleClass('hide')
+      $('#psalary').toggleClass('hide')
+
+   }
+   $('#addsalary').click(addsalary)
+   function addsalary(){
+      var add = JSON.parse($('#salaryin').val())
+      console.log(add+ 1)
+      var rst = add + nsalary
+      console.log(rst)
+      $('#psalary').text('you spend: ' + rst)
+      localStorage.setItem(namefood,JSON.stringify(rst))
+   }
+
+   //         console.log(nBeauty)
+    //         console.log(y)
+    //         console.log(z)
+    // z+=1
+    //    console.log(z)
+
+
+    var nameinvestment = name + ' Investment'
+   var vinvestment = localStorage[nameinvestment]
+   var ninvestment = JSON.parse(localStorage[nameinvestment])
+   $('#Investment').click(investval)
+   function investval(){
+      $('#investmentin').toggleClass('hide')
+      $('#addinvestment').toggleClass('hide')
+      $('#pinvestment').toggleClass('hide')
+
+   }
+   $('#addinvestment').click(addinvest)
+   function addinvest(){
+      var add = JSON.parse($('#investmentin').val())
+      console.log(add+ 1)
+      var rst = add + ninvestment
+      console.log(rst)
+      $('#pinvestment').text('you spend: ' + rst)
+      localStorage.setItem(nameinvestment,JSON.stringify(rst))
+   }
 }
 
 function checkUsers(){
@@ -200,31 +261,13 @@ function checkUsers(){
 const incomes = $('#incomes')
 incomes.click(income)
 function income(){
-    incomes.animate({
-      left: '250px',
-      opacity: '21.5',
-      height: '300px',
-      width: '300px'
-    });
-    $('#balance').addClass('hide')
-    $('#expences').addClass('hide')
-    $('#incomeComptes').removeClass('hide')
+    
+    $('#balance').toggleClass('hide')
+    $('#expences').toggleClass('hide')
+    $('#incomeComptes').toggleClass('hide')
     
 }
-const retur = $('#forC')
-retur.click(returToMain)
-function returToMain(){
-    incomes.animate({
-      left: '0px',
-      opacity: '0.5',
-      height: '100px',
-      width: '100px'
-    });
-     $('#balance').removeClass('hide')
-     $('#expences').removeClass('hide')
-     $('#incomeComptes').addClass('hide')
 
-  }
 
 
 
@@ -234,31 +277,13 @@ function returToMain(){
 const expences = $('#expences')
 expences.click(expence)
 function expence(){
-      $('expences').animate({
-      left: '500px',
-      opacity: '21.5',
-      height: '300px',
-      width: '300px'
-    });
-    $('#balance').addClass('hide')
-    $('#incomes').addClass('hide')
-    $('#expencesComptes').removeClass('hide')
+     ;
+    $('#balance').toggleClass('hide')
+    $('#incomes').toggleClass('hide')
+    $('#expencesComptes').toggleClass('hide')
 }
 
-const retur2 = $('#forCc')
-retur2.click(returToMain2)
-function returToMain2(){
-    expences.animate({
-      left: '700px',
-      opacity: '0.5',
-      height: '100px',
-      width: '100px'
-    });
-     $('#balance').removeClass('hide')
-    $('#incomes').removeClass('hide')
-    $('#expencesComptes').addClass('hide')
 
-  }
 
 
 
