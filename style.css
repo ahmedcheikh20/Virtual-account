@@ -68,9 +68,9 @@ position: relative;
     
 .image{
     position: relative;
-    left: 718px;
-    width: 100px;
-  height: 100px;
+    left: 380px;
+    width: 500px;
+  height: 241px;
 }
 #incomeComptes{
    
@@ -104,12 +104,11 @@ position: relative;
   background-color: #04AA6D;
   color: white;
 }
-body {
+/*body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 5.428571;
-    color: #333;
-    }
+    }*/
 .topnav {
     height: 60px;
 }
@@ -120,8 +119,13 @@ body {
 #save{
   height:30px
 }
-p{
+#Investment,#Food,#Travelling,#Tools,#Clothes,#Beauty,#Maintains{
   text-align: center;
+  font-size: 20px;
+  color: grey;
+}
+#salary{
+   text-align: center;
   font-size: 20px;
   color: grey;
 }
@@ -133,23 +137,22 @@ p{
 
 .image {
     position: relative;
-    left: 444px;
+    left: 367px;
     width: 500px;
     height: 241px;
     border: 10px solid yellow;
 }
-#coordinate{
+#coordinate {
     margin: auto;
     width: 17%;
     border: 3px solid #333;
     padding: 8px;
+    position: relative;
+    left: 6px;
 }
 
-}
 
-.erftgg{
 
-}
 .sidebar {
   margin: 0;
   padding: 0;
@@ -159,40 +162,28 @@ p{
   height: 100%;
   overflow: auto;
 }
-#put{
+#put {
     margin: auto;
     width: 24%;
     border: 3px solid #333;
     padding: 8px;
+    position: relative;
+    left: -4px;
 }
 
-#button{
-  background-color: grey
+
+#beautydiv{
+   height: 20px;
+   weight: 20px;
+   position: relative;
+   left: 100px;
 }
-#button1{
-  background-color: grey
+p{
+  text-align: center;
+  font-size: 25px;
+  color:dimgray;
 }
-#forC{
-  background-color: grey
-}
-#button2{
-  background-color: grey
-}
-#button3{
-  background-color: grey
-}
-#button4{
-  background-color: grey
-}
-#button5{
-  background-color: grey
-}
-#button6{
-  background-color: grey
-}
-#button7{
-  background-color: grey
-}
-#forCc{
-   background-color: grey
+body{
+  background-image: url();
+  background-color: grey;
 }
