@@ -16,8 +16,11 @@
     </ul>
   </nav>
   <!-- // we create buutons for sign in and sign up -->
-   <input type="button" id ="enter" value="signin" style="float: right;">
-   <input type="button" id ="save" value="signup" style="float: right;">
+  <div >
+      <input type="button" id ="enter" value="signin" style="float: right;">
+      <input type="button" id ="save" value="signup" style="float: right;">
+      <input type="button" id ="dec" class="hide" value="deconexion" style="float: right;">
+  </div>
 </div>
 <body>
 <!-- welcome text -->
@@ -25,6 +28,8 @@
 <!-- // we pushed and image that represente website -->
 <img class= "image" id='img' src="C:\Users\marou\Desktop\img.jpg">
 <!-- we create class to show and hide the balance /incomes and expences -->
+
+<div class="hide" id="mainpage">
 <div class = 'hide' id='principal'>
    <button id ="balance" >Balance</button>
    <button id ="incomes" >incomes</button>
@@ -32,10 +37,20 @@
 </div>
 <!-- we create class for the incomes with button goback  -->
 <div class = 'hide' id='incomeComptes'>
+   <div>
+      <button id='Salary'>Salary</button>
+      <p id="psalary" ></p>
+      <input type="number" class="hide" id='salaryin' name="salary" value="">
+      <button id="addsalary" class="hide">add</button>
+   </div>
 
-   <button id='Salary'>Salary</button>
-   <button id='Investment'>Investment</button>
-   <button id="forC">Go back</button>
+   <div>
+      <button id='Investment'>Investment</button>
+      <p id="pinvestment"></p>
+      <input type="number" class="hide" id="investmentin" name="investmeny" value="">
+      <button id="addinvestment" class="hide">add</button>
+   </div>   
+
 </div>
 <!-- the titles p will be the in put for despenses with button go back -->
 <div class = 'hide' id='expencesComptes'>
@@ -51,14 +66,14 @@
       <button id='Travelling'>Travelling</button>
       <p id='ptravelling'></p>
       <input type="number" class="hide" id="Travellingin" name="Travelling" value="">
-      <button id="addTravelling"></button>
+      <button id="addTravelling">add</button>
    </div>
    
    <div>
       <button id='Clothes'>Clothes</button>
       <p id="pclothes"></p>
       <input type="number" class="hide" id="clothesin" name="clothes" value="">
-      <button id="addclothes"></button>
+      <button id="addclothes">add</button>
    </div>
    
    <div id='beautydiv'>
@@ -68,7 +83,6 @@
       <button id='addbeauty' class='hide'>add</button>
    </div>
 
-   <button id="forCc">Go back</button>
 </div>
 
 <!-- // we create a hiden class for the username and password with button login-->
@@ -87,7 +101,7 @@
   <input type="text" id="newpassword" name="password"  value=" "><br><br>
   <button id='signup'> Sign up </button> 
 </div>
-
+</div>
  <!-- <div class="sidebar">
   <a class="active" href="#home">Home</a>
   <a href="#news">News</a>
@@ -95,10 +109,10 @@
   <a href="#about">About</a>
 </div>
 
-<!-- Page content -->
-<div class="content">
+Page content -->
+<!-- <div class="content">
   ..
-</div> -->
+</div> --> -->
 
    
 <script type="text/javascript" src="main.js"></script>
