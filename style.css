@@ -3,50 +3,11 @@
    font-family: Gotham Rounded;
 }
 
-#user{
-   
-   background-color: #ffc107db;
-   border-radius: 5px;
-   padding: 10px;
-   box-shadow: 5px 10px #888888;
-   position: relative;
-   left: 1186px;
-   top: -190px;
-   height: 180px
-}
-
 .hide{
  /*  display: none;*/
    visibility: hidden;
 }
 
-
-#userpassword{
-   position: relative;
-   top: 100px;
-}
-
-
-#user {
-    background-image: url(img.jpg);
-    background-color: black;
-    border-radius: 2px;
-    padding: 8px;
-    position: relative;
-    left: 1051px;
-    top: -189px;
-    height: 181px;
-}
-    
-.image{
-    position: relative;
-    left: 380px;
-    width: 500px;
-  height: 241px;
-}
-#incomeComptes{
-   
-}
 /*//maroua work*/
 
 /* Add a black background color to the top navigation */
@@ -76,34 +37,11 @@
   background-color: #04AA6D;
   color: white;
 }
-/*body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 5.428571;
-    }*/
+
 .topnav {
     height: 60px;
 }
     
-
-
-
-
-.image {
-    display: block;
-    width: 47%;
-    height: 230px;
-}
-
-.image {
-    position: relative;
-    left: 367px;
-    width: 500px;
-    height: 241px;
-    border: 10px solid yellow;
-}
-
-
 
 #put {
     margin: auto;
@@ -133,13 +71,6 @@
     font-size: 17px;
 }
 
-
-#beautydiv{
-   height: 20px;
-   weight: 20px;
-   position: relative;
-   left: 100px;
-}
 p{
   text-align: center;
   font-size: 25px;
@@ -208,13 +139,318 @@ body{
 }
 
 #investdiv{
+  position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 188px;
+    height: 50px;
+    left: 91px;
+    top: 94px;
+}
+#Investment{
    position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 59px;
+    height: 25px;
+    left: 6px;
+    top: 13px;
+    border-radius: 12px;
+    background-color: #23211ec2;
+    color: #bebf72;
+    font-size: 16px;
+}
+#pinvestment{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
    width: 25px;
    height: 25px;
-   left: 200px;
-   top: 200px;
+   left: 91px;
+   top: -20px;
    border: 25px;
 }
+#investmentin{
+    position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 46px;
+    height: 20px;
+    left: 17px;
+    top: 12px;
+    border-radius: 12px;
+}
+#addinvestment{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 40px;
+    height: 20px;
+    left: 24px;
+    top: 16px;
+    border-radius: 12px;
+    background-color: #23211ec2;
+    color: #bebf72;
+    font-size: 16px;
+}
+
+#salarydiv{
+  position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 188px;
+    height: 50px;
+    left: 91px;
+    top: 94px;
+}
+#Salary{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 59px;
+    height: 25px;
+    left: 6px;
+    top: 13px;
+    border-radius: 12px;
+    background-color: #23211ec2;
+    color: #bebf72;
+    font-size: 16px;
+}
+#psalary{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+   width: 25px;
+   height: 25px;
+   left: 91px;
+   top: -20px;
+   border: 25px;
+}
+#salaryin{
+    position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 46px;
+    height: 20px;
+    left: 17px;
+    top: 12px;
+    border-radius: 12px;
+}
+#addsalary{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 40px;
+    height: 20px;
+    left: 24px;
+    top: 16px;
+    border-radius: 12px;
+    background-color: #23211ec2;
+    color: #bebf72;
+    font-size: 16px;
+}
+
+#Foordiv{
+    position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 188px;
+    height: 50px;
+    left: 884px;
+    top: 55px;
+}
+#Food{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 59px;
+    height: 25px;
+    left: 6px;
+    top: 13px;
+    border-radius: 12px;
+    background-color: #23211ec2;
+    color: #bebf72;
+    font-size: 16px;
+}
+#pfood{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+   width: 25px;
+   height: 25px;
+   left: 91px;
+   top: -20px;
+   border: 25px;
+}
+#foodin{
+    position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 46px;
+    height: 20px;
+    left: 17px;
+    top: 12px;
+    border-radius: 12px;
+}
+#addfood{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 40px;
+    height: 20px;
+    left: 24px;
+    top: 16px;
+    border-radius: 12px;
+    background-color: #23211ec2;
+    color: #bebf72;
+    font-size: 16px;
+
+}
+
+
+
+#traveldiv{
+    position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 188px;
+    height: 50px;
+    left: 884px;
+    top: 55px;
+}
+#Travelling{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 83px;
+    height: 25px;
+    left: 6px;
+    top: 12px;
+    border-radius: 12px;
+    background-color: #23211ec2;
+    color: #bebf72;
+    font-size: 16px;
+}
+#ptravelling{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+   width: 25px;
+   height: 25px;
+   left: 91px;
+   top: -20px;
+   border: 25px;
+}
+#Travellingin{
+    position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 46px;
+    height: 20px;
+    left: 6px;
+    top: 12px;
+    border-radius: 12px;
+}
+#addTravelling{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 40px;
+    height: 20px;
+    left: 7px;
+    top: 16px;
+    border-radius: 12px;
+    background-color: #23211ec2;
+    color: #bebf72;
+    font-size: 16px;
+
+}
+
+
+#clothesdiv{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 188px;
+    height: 50px;
+    left: 884px;
+    top: 55px;
+}
+#Clothes{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 83px;
+    height: 25px;
+    left: 6px;
+    top: 12px;
+    border-radius: 12px;
+    background-color: #23211ec2;
+    color: #bebf72;
+    font-size: 16px;
+}
+#pclothes{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+   width: 25px;
+   height: 25px;
+   left: 91px;
+   top: -20px;
+   border: 25px;
+}
+#clothesin{
+    position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 46px;
+    height: 20px;
+    left: 6px;
+    top: 12px;
+    border-radius: 12px;
+}
+#addclothes{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 40px;
+    height: 20px;
+    left: 7px;
+    top: 16px;
+    border-radius: 12px;
+    background-color: #23211ec2;
+    color: #bebf72;
+    font-size: 16px;
+}
+
+#beautydiv{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 188px;
+    height: 50px;
+    left: 884px;
+    top: 55px;
+}
+#Beauty{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 83px;
+    height: 25px;
+    left: 6px;
+    top: 12px;
+    border-radius: 12px;
+    background-color: #23211ec2;
+    color: #bebf72;
+    font-size: 16px;
+}
+#pbeauty{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+   width: 25px;
+   height: 25px;
+   left: 91px;
+   top: -20px;
+   border: 25px;
+}
+#beautyin{
+    position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 46px;
+    height: 20px;
+    left: 6px;
+    top: 12px;
+    border-radius: 12px;
+}
+#addbeauty{
+   position: relative;
+    border: 1px solid rgb(16, 16, 15);
+    width: 40px;
+    height: 20px;
+    left: 7px;
+    top: 16px;
+    border-radius: 12px;
+    background-color: #23211ec2;
+    color: #bebf72;
+    font-size: 16px;
+}
+
+
+
 
 #parid{
    position: relative;
@@ -224,4 +460,16 @@ body{
 
 .style{
    color: white;
+}
+
+#expencesComptes{
+   border: 3px;
+   position: relative;
+   left: 30px;
+}
+
+#incomeComptes{
+   border: 3px;
+   position: relative;
+   left: 30px;
 }
