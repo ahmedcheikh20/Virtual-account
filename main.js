@@ -118,9 +118,7 @@ function login(name){
       $('#beautyin').addClass('hide')
       $('#pbeauty').html(nBeauty + 'D')
       $('#pbeauty').removeClass('hide')
-      $('#incomes').html('Incomes: ' + totalIncomes )
-      $('#expences').html('Expences: ' + totalExpences)
-      $('#balance').html('Balance: ' + Balance)
+      
    }
 
                  // same steps for all others comptes
@@ -148,9 +146,7 @@ function login(name){
       $('#foodin').addClass('hide')
       $('#pfood').html(nfood + 'D')
       $('#pfood').removeClass('hide')
-      $('#incomes').html('Incomes: ' + totalIncomes )
-      $('#expences').html('Expences: ' + totalExpences)
-      $('#balance').html('Balance: ' + Balance)
+    
    }
 
     
@@ -178,9 +174,6 @@ function login(name){
       $('#Travellingin').addClass('hide')
       $('#ptravelling').html(ntravelling + 'D')
       $('#ptravelling').removeClass('hide')
-      $('#incomes').html('Incomes: ' + totalIncomes )
-      $('#expences').html('Expences: ' + totalExpences)
-      $('#balance').html('Balance: ' + Balance)
    }
 
     
@@ -208,9 +201,7 @@ function login(name){
       $('#clothesin').addClass('hide')
       $('#pclothes').html(nclothes + 'D')
       $('#pclothes').removeClass('hide')
-      $('#incomes').html('Incomes: ' + totalIncomes )
-      $('#expences').html('Expences: ' + totalExpences)
-      $('#balance').html('Balance: ' + Balance)
+      
    }
 
   
@@ -239,9 +230,7 @@ function login(name){
       $('#salaryin').addClass('hide')
       $('#psalary').html(nsalary + 'D')
       $('#psalary').removeClass('hide')
-      $('#incomes').html('Incomes: ' + totalIncomes )
-      $('#expences').html('Expences: ' + totalExpences)
-      $('#balance').html('Balance: ' + Balance)
+      
    }
 
   
@@ -270,16 +259,14 @@ function login(name){
       $('#investmentin').addClass('hide')
       $('#pinvestment').html(ninvestment + 'D')
       $('#pinvestment').removeClass('hide')
-      $('#incomes').html('Incomes: ' + totalIncomes )
-      $('#expences').html('Expences: ' + totalExpences)
-      $('#balance').html('Balance: ' + Balance)
    }
    var totalExpences =  nBeauty + nfood + ntravelling + nclothes
+   console.log(totalExpences)
    var totalIncomes = nsalary + ninvestment
    var Balance = totalIncomes - totalExpences
-   $('#incomes').html('Incomes: ' + totalIncomes )
-   $('#expences').html('Expences: ' + totalExpences)
-   $('#balance').html('Balance: ' + Balance)
+   $('#incomes').html('Incomes: ' + totalIncomes + 'D')
+   $('#expences').html('Expences: ' + totalExpences + 'D')
+   $('#balance').html('Balance: ' + Balance + 'D')
    $('#pbeauty').html(nBeauty + 'D')
    $('#pfood').html(nfood + 'D')
    $('#pinvestment').html(nfood + 'D')
